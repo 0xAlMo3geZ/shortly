@@ -1,0 +1,16 @@
+{
+    "name": "shortly",
+    "version": "1.0.0",
+    "description": "Shortly landing page for tailwindcss practice.",
+    "main": "index.html",
+    "scripts": {
+        "build": "tailwindcss -i ./input.css -o ./css/style.css",
+        "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+    },
+    "keywords": [],
+    "author": "Muhammad Zaki",
+    "license": "MIT",
+    "devDependencies": {
+        "tailwindcss": "^3.0.24"
+    }
+}
